@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.top-container{
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url("bg-img.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.navbar{
+    margin: 0px 150px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.navbar h2{
+    color: #FFF;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+nav ul li{
+    display: inline-block;
+    justify-content: space-around;
+}
+
+nav ul li a{
+    text-decoration: none;
+    list-style-type: none;
+    color: #FFF;
+    padding: 35px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.content{
+    margin: 150px 200px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 1.25;
+    width: 50%;
+}
+
+.text h1{
+    font-family: 'Paytone One', sans-serif;
+    font-size: 80px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.text p{
+    color: #FFF;
+    line-height: 1.5;
+}
+
+.btn {
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    color:white;
+    font-size: 20px;
+    background: #023154;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border: 0;
+    margin-top: 30px;
+    width: 200px;
+  }
+  
+  .btn:hover {
+    background: #023154;
+    text-decoration: none;
+  }
+
+
